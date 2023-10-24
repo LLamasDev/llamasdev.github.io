@@ -54,7 +54,7 @@ additional_links:
 
 # About Section
 about_title: Sobre mí
-about_profile_image: ./images/Captura.PNG
+about_profile_image: ./images/LLamasDev.PNG
 about_content: |
   Mis comienzos en este mundillo fueron creando páginas webs, más tarde estudié ASIR (Administración de Sistemas Informáticos en Red) porque me apasiona el mundo GNU/Linux, pero también me apasiona el mundo de la programación por lo cual terminé estudiando más tarde DAM (Desarrollo de Aplicaciones Multiplataforma) mientras trabajaba.
 
@@ -82,57 +82,152 @@ about_content: |
 
   Luego por mi cuenta seguí usando GNU/Linux con servidores NAS o VPS para montar mis proyectos como mi bot para [Clash Royale](https://github.com/LLamasDev/ClashRoyale) o profundizar con bash y web scraping, donde fusiono mis dos grandes pasiones, sistemas GNU/Linux y la programación. Más tarde cree mi [blog](https://llamasdev.github.io/Blog/) donde creo procedimientos o apunto datos de interés personal, para acceder rápido a esta información. Nunca me canso de seguir aprendiendo en este fantástico mundo de la informática.
 
-
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experiencia
+    layout: list
+    content:
+      - layout: center
+        title: Técnico administrador de sistemas Middleware
+        sub_title: Infortec
+        caption: ene. de 2022 - actualidad
+        quote: >
+        description: |
+          Cliente: Movistar
+          - Parada, arranque y revisión de: Apache Webserver, Oracle WebLogic Server, JBoss y Tomcat.
+          - Creación o edición de script en bash.
+          - Spazio: parada y arranque de spazio o de líneas, revisión de colas, visualización de ficheros en colas, crear o eliminar colas.
+          - Flujos (Ghibli): Revisión de los flujos, que no siempre tienen que pasar por Spazio.
+          - Resolución de incidencias y peticiones por herramienta de ticketing.
+          - Herramientas de monitorización.
+          - Preparación y ejecución de cambios.
+      - layout: center
+        title: Técnico administrador de sistemas Middleware
+        sub_title: Inetum
+        caption: ago. de 2020 - ene. de 2022
+        quote: >
+        description: |
+          Cliente: Movistar
+          - Conocimientos de herramientas como: Clarive, OEM 13c (Oracle Enterprise Manager Cloud Control 13c), ODI (Oracle Database Interface).
+          - Parada, arranque y revisión de: Apache Webserver, Oracle WebLogic Server, JBoss y Tomcat.
+          - Resolución de incidencias y peticiones por herramienta de ticketing.
+          - Herramientas de monitorización.
+          - Conocimientos de OPENSHIFT, Tuxedo y MQ-SPAZIO.
+          - Preparación y ejecución de cambios.
+      - layout: top
+        title: Soporte técnico para empresas de Orange
+        sub_title: Majorel
+        caption: oct. de 2017 - mar. de 2020
+      - layout: top
+        title: Practicas IT
+        sub_title: Colegio Laude El Altillo school
+        caption: abr. de 2017 - jun. de 2017
+
+  - title: Proyectos
+    layout: list
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: Clash Royale
+        link: https://github.com/LLamasDev/ClashRoyale
+        link_text: Clash Royale
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: Clash Royale
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            url: https://github.com/LLamasDev/ClashRoyale
+        quote: >
+        description: |
+          Bot creado en Python para Telegram (tanto en grupos como por privado) para obtener mediante la API oficial información de tu cuenta, de tu clan en el juego, indicando los mazos más usados o ayuda al usuario a gestionar su clan proporcionando información de los eventos. Con una base de datos para almacenar la configuración del usuario o llevar un control de uso para sacar estadísticas.
+      - layout: left
+        title: Clash Royale API
+        link: https://github.com/LLamasDev/ClashRoyaleAPI
+        link_text: Clash Royale API
+        additional_links:
+          - title: API de peticiones GET y POST
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            url: https://github.com/LLamasDev/ClashRoyaleAPI
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        description: |
+          Proyecto realizado en Python y Django, realiza funciones como [Clash Royale](https://github.com/LLamasDev/ClashRoyale), pero con la función extra de ser una API propia que admite peticiones GET y POST.
+      - layout: left
+        title: Gestión de procesos Bash
+        link: https://github.com/LLamasDev/administrador-bash
+        link_text: Gestión de procesos Bash
+        additional_links:
+          - title: Gestión de procesos Bash
+            icon: fab fa-github
+            url: https://github.com/LLamasDev/administrador-bash
         quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        description: |
+          Son scripts en Bash para ver si un proceso está corriendo, arrancar un proceso, parar un proceso o reiniciar un proceso.
+      - layout: left
+        title: Web Scraping
+        link: https://github.com/LLamasDev/WebScraping
+        link_text: Web Scraping
+        additional_links:
+          - title: Web Scraping
+            icon: fab fa-github
+            url: https://github.com/LLamasDev/WebScraping
         quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+        description: |
+          Proyecto realizado con Beautiful Soup para obtener datos mediante web scraping.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  - title: Educación
+    layout: list
+    content:
+      - layout: top
+        title: Desarrollo de Aplicaciones Multiplataforma
+        sub_title: IES Almunia
+        caption: 2019 - 2021
+      - layout: top
+        title: Administración de Sistemas Informáticos en Red
+        sub_title: IES Romero Vargas
+        caption: 2015 - 2017
+      - layout: top
+        title: Bachillerato de Ciencias y Tecnología
+        sub_title: IES Vega del Guadalete
+        caption: 2012
+
+  - title: Certificados
+    layout: list
+    content:
+      - layout: top
+        title: Aprende Oracle SQL desde cero
+        caption: 2021
+      - layout: top
+        title: Introducción a SQL con Oracle 11g
+        caption: 2021
+      - layout: top
+        title: Web scraping Extracción de datos en la Web
+        caption: 2020
+      - layout: top
+        title: GIT
+        caption: 2020
+      - layout: top
+        title: Confidencialidad y protección de datos
+        caption: 2018
+      - layout: top
+        title: CCNA1 de Cisco
+        caption: 2016
+      - layout: top
+        title: CCNA2 de Cisco
+        caption: 2016
+      - layout: top
+        title: IT Essentials de Cisco
+        caption: 2016
+
+  - title: Datos de interés
+    layout: text
+    content: |
+      - Carnet de conducir - B, vehículo propio y movilidad geográfica
+      - Disponibilidad inmediata
+      - Gran capacidad de aprendizaje y seguir mejorando
+      - Adaptabilidad al proyecto
+      - Proactividad
+      - Dotes de liderazgo e iniciativa
+      - Gran ingenio en resolución de problemas y trabajo en equipo
+      - Persona seria y responsable
+      - Sociabilidad y destreza en la relación con los clientes
+      - Profesionalidad y enfoque hacia objetivos
+      - Nivel medio de inglés hablado y escrito
 
 # Footer
 footer_show_references: true
