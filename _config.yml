@@ -19,25 +19,29 @@ website_title: Blog
 darkmode: true
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+twitter_username: LLamasDev
+github_username:  LLamasDev
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+linkedin_username: llamasdev
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#orcid_username: 0000-0000-0000-0000
+#googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 additional_links:
 - title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+  - title: Blog link
+    icon: fa fa-globe
+    url: https://llamasdev.github.io/Blog/
+  - title: Telegram link
+    icon: fab fa-telegram
+    url: https://t.me/Fib0nacci
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -49,16 +53,35 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+about_title: Sobre mí
+about_profile_image: ./images/Captura.PNG
+about_content: |
+  Mis comienzos en este mundillo fueron creando páginas webs, más tarde estudié ASIR (Administración de Sistemas Informáticos en Red) porque me apasiona el mundo GNU/Linux, pero también me apasiona el mundo de la programación por lo cual terminé estudiando más tarde DAM (Desarrollo de Aplicaciones Multiplataforma) mientras trabajaba.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  Como administrador de sistemas middleware aprendí (Cliente: Movistar):
+    - Conocimientos de herramientas como: Clarive, OEM 13c (Oracle Enterprise Manager Cloud Control 13c), ODI (Oracle Database Interface).
+    - Parada, arranque y revisión de: Apache Webserver, Oracle WebLogic Server, JBoss y Tomcat.
+    - Creación o edición de script en bash.
+    - Spazio: parada y arranque de spazio o de líneas, revisión de colas, visualización de ficheros en colas, crear o eliminar colas.
+    - Flujos (Ghibli): Revisión de los flujos, que no siempre tienen que pasar por Spazio.
+    - Resolución de incidencias y peticiones por herramienta de ticketing.
+    - Herramientas de monitorización.
+    - Conocimientos de OPENSHIFT, Tuxedo y MQ.
+    - Preparación y ejecución de cambios.
+
+  En desarrollo de aplicaciones multiplataforma (DAM) aprendí:
+    - Programar en Python, JavaScript, TypeScript (Angular, Ionic), C#, Java, Android(Java).
+    - Microsoft SQL Server para la gestión de bases de datos.
+
+  En administración de sistemas informáticos en red (ASIR) aprendí:
+    - Virtualización.
+    - Administración de GNU/Linux, Windows 7, 8, 10 y Windows server.
+    - Bases de datos.
+    - Gestión de redes.
+    - Programación en bash, Python, PHP y JavaScript.
+
+  Luego por mi cuenta seguí usando GNU/Linux con servidores NAS o VPS para montar mis proyectos como mi bot para [Clash Royale](https://github.com/LLamasDev/ClashRoyale) o profundizar con bash y web scraping, donde fusiono mis dos grandes pasiones, sistemas GNU/Linux y la programación. Más tarde cree mi [blog](https://llamasdev.github.io/Blog/) donde creo procedimientos o apunto datos de interés personal, para acceder rápido a esta información. Nunca me canso de seguir aprendiendo en este fantástico mundo de la informática.
+
 
 content:
   - title: Projects # Title for the section
