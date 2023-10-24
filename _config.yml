@@ -35,7 +35,6 @@ linkedin_username: llamasdev
 
 # Additional icon links
 additional_links:
-- title: Link name
   - title: Blog link
     icon: fa fa-globe
     url: https://llamasdev.github.io/Blog/
