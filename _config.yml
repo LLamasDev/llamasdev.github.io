@@ -86,9 +86,30 @@ content:
     layout: list
     content:
       - layout: center
+        title: Especialista en DevOps, SRE y Observabilidad
+        sub_title: DXC
+        caption: abr. 2023 - actualidad
+        quote: >
+        description: |
+          Diseño e implementación de la pila TICK: Desplegué y gestioné la infraestructura de monitorización con Telegraf, InfluxDB y Kapacitor para la recolección y análisis en tiempo real de métricas críticas del sistema y aplicaciones.
+          
+          Análisis avanzado de datos con Flux: Escribí consultas complejas en Flux para transformar datos brutos en Key Performance Indicators (KPIs) accionables, permitiendo una comprensión profunda del comportamiento de la plataforma.
+          
+          Visualización centralizada con Grafana: Creé dashboards estratégicos en Grafana, unificando la visualización de métricas (desde InfluxDB) y logs (desde Elasticsearch) para proporcionar una vista 360° del estado de los servicios a los equipos de desarrollo y operaciones.
+          
+          Gestión de logs a escala con Elastic Stack: Implementé la pila ELK para construir un sistema centralizado de logging. Utilicé Logstash para la ingesta y enriquecimiento, y Kibana para facilitar el análisis de causa raíz y la resolución de incidentes (troubleshooting).
+          
+          Pipeline de datos robusto con Kafka: Integré Apache Kafka para crear un pipeline de streaming resiliente, garantizando la ingesta de altos volúmenes de logs y métricas sin pérdida de datos y desacoplando los sistemas productores de los consumidores.
+          
+          Estrategia de alertas inteligente: Desarrollé un sistema de alertas proactivo combinando la potencia de Kapacitor con el enrutamiento de Alerta.io para reducir el ruido, minimizar la fatiga por alertas y asegurar que las notificaciones críticas llegaran al equipo correcto de forma inmediata.
+          
+          Automatización de la Observabilidad: Automaticé la creación de alertas dinámicas mediante scripts en Python y Bash, que analizan patrones de métricas para detectar anomalías que los umbrales estáticos no pueden capturar.
+          
+          Infraestructura como código (IaC) para Observabilidad: Utilicé Docker para contenerizar y desplegar toda la pila de herramientas de monitorización, asegurando consistencia, reproducibilidad y agilidad en la gestión de la infraestructura.
+      - layout: center
         title: Técnico administrador de sistemas Middleware
         sub_title: Infortec
-        caption: ene. de 2022 - actualidad
+        caption: ene. de 2022 - abr. 2023 (1 año 4 meses)
         quote: >
         description: |
           Cliente: Movistar
@@ -102,7 +123,7 @@ content:
       - layout: center
         title: Técnico administrador de sistemas Middleware
         sub_title: Inetum
-        caption: ago. de 2020 - ene. de 2022
+        caption: ago. de 2020 - ene. de 2022 (1 año 6 meses)
         quote: >
         description: |
           Cliente: Movistar
@@ -115,11 +136,11 @@ content:
       - layout: top
         title: Soporte técnico para empresas de Orange
         sub_title: Majorel
-        caption: oct. de 2017 - mar. de 2020
+        caption: oct. de 2017 - mar. de 2020 (2 años 6 meses)
       - layout: top
         title: Practicas IT
         sub_title: Colegio Laude El Altillo school
-        caption: abr. de 2017 - jun. de 2017
+        caption: abr. de 2017 - jun. de 2017 (3 meses)
 
   - title: Proyectos
     layout: list
