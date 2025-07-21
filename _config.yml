@@ -54,7 +54,9 @@ additional_links:
 # About Section
 about_title: Sobre mí
 about_profile_image: ./images/LLamasDev.PNG
-
+about_content: |
+  Especialista en DevOps y SRE con más de 2 años de experiencia diseñando y gestionando plataformas de observabilidad a gran escala. Mi enfoque es transformar datos complejos en información accionable, utilizando herramientas como la pila TICK, Elastic Stack y Kafka para construir sistemas resilientes, reducir el ruido de alertas y acelerar la resolución de incidentes. Apasionado por la automatización y la cultura de la fiabilidad.
+  
 content:
   - title: Experiencia
     layout: list
@@ -66,19 +68,19 @@ content:
         quote: >
         description: |
           Diseño e implementación de la pila TICK: Desplegué y gestioné la infraestructura de monitorización con Telegraf, InfluxDB y Kapacitor para la recolección y análisis en tiempo real de métricas críticas del sistema y aplicaciones.
-
+          
           Análisis avanzado de datos con Flux: Escribí consultas complejas en Flux para transformar datos brutos en Key Performance Indicators (KPIs) accionables, permitiendo una comprensión profunda del comportamiento de la plataforma.
-
+          
           Visualización centralizada con Grafana: Creé dashboards estratégicos en Grafana, unificando la visualización de métricas (desde InfluxDB) y logs (desde Elasticsearch) para proporcionar una vista 360° del estado de los servicios a los equipos de desarrollo y operaciones.
-
+          
           Gestión de logs a escala con Elastic Stack: Implementé la pila ELK para construir un sistema centralizado de logging. Utilicé Logstash para la ingesta y enriquecimiento, y Kibana para facilitar el análisis de causa raíz y la resolución de incidentes (troubleshooting).
-
+          
           Pipeline de datos robusto con Kafka: Integré Apache Kafka para crear un pipeline de streaming resiliente, garantizando la ingesta de altos volúmenes de logs y métricas sin pérdida de datos y desacoplando los sistemas productores de los consumidores.
-
+          
           Estrategia de alertas inteligente: Desarrollé un sistema de alertas proactivo combinando la potencia de Kapacitor con el enrutamiento de Alerta.io para reducir el ruido, minimizar la fatiga por alertas y asegurar que las notificaciones críticas llegaran al equipo correcto de forma inmediata.
-
+          
           Automatización de la Observabilidad: Automaticé la creación de alertas dinámicas mediante scripts en Python y Bash, que analizan patrones de métricas para detectar anomalías que los umbrales estáticos no pueden capturar.
-
+          
           Infraestructura como código (IaC) para Observabilidad: Utilicé Docker para contenerizar y desplegar toda la pila de herramientas de monitorización, asegurando consistencia, reproducibilidad y agilidad en la gestión de la infraestructura.
       - layout: center
         title: Técnico administrador de sistemas Middleware
@@ -179,49 +181,6 @@ content:
         title: Bachillerato de Ciencias y Tecnología
         sub_title: IES Vega del Guadalete
         caption: 2012
-
-  - title: Certificados
-    layout: list
-    content:
-      - layout: top
-        title: Aprende Oracle SQL desde cero
-        caption: 2021
-      - layout: top
-        title: Introducción a SQL con Oracle 11g
-        caption: 2021
-      - layout: top
-        title: Web scraping Extracción de datos en la Web
-        caption: 2020
-      - layout: top
-        title: GIT
-        caption: 2020
-      - layout: top
-        title: Confidencialidad y protección de datos
-        caption: 2018
-      - layout: top
-        title: CCNA1 de Cisco
-        caption: 2016
-      - layout: top
-        title: CCNA2 de Cisco
-        caption: 2016
-      - layout: top
-        title: IT Essentials de Cisco
-        caption: 2016
-
-  - title: Datos de interés
-    layout: text
-    content: |
-      - Carnet de conducir - B, vehículo propio y movilidad geográfica
-      - Disponibilidad inmediata
-      - Gran capacidad de aprendizaje y seguir mejorando
-      - Adaptabilidad al proyecto
-      - Proactividad
-      - Dotes de liderazgo e iniciativa
-      - Gran ingenio en resolución de problemas y trabajo en equipo
-      - Persona seria y responsable
-      - Sociabilidad y destreza en la relación con los clientes
-      - Profesionalidad y enfoque hacia objetivos
-      - Nivel medio de inglés hablado y escrito
 
 # Footer
 footer_show_references: false
